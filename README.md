@@ -60,7 +60,7 @@ HEAD -- это голова.
 <и тут пустая строка!>
 ```mermaid
 graph LR;
-  untracked -- "git add" --> staged;
+  untracked -- "git add" --> staged/tracked;
   staged/tracked -- "git commit" --> tracked/comitted;
   staged/tracked -- "Изменения" --> modified/tracked;
   tracked -- "Изменение" --> modified/tracked;
